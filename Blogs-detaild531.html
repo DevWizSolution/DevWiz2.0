@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from nodlays.com/Blogs-detail?EncId=Mg%3D%3D by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 06:19:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <title>Blog Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nodlays" />
+    <meta name="email" content="info@nodlays.com" />
+    <meta name="website" content="www.nodlays.com" />
+    <meta name="Version" content="v3.8.0" />
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- LottieFiles Script -->
+    <script src="../unpkg.com/%40lottiefiles/lottie-player%402.0.2/dist/lottie-player.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js"></script>
+
+
+    <!-- Recaptcha -->
+    
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Content/Assets/images/favicon.png">
+    <!-- Bootstrap -->
+    <link href="Content/Assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- tobii css -->
+    <link href="Content/Assets/css/tobii.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="Content/Assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="Content/Assets/css/tiny-slider.css" />
+    <!-- Main Css -->
+    <link href="Content/Assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="Content/Assets/css/colors/default.css" rel="stylesheet" id="color-opt">
+
+
+</head>
+
+
+<body>
+
+    <input type="hidden" id="viewbagMessage">
+    <input type="hidden" id="viewbagColor">
+
+    <!-- Loader -->
+    <!-- <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Loader -->
+    <!-- Navbar Start -->
+    <header id="topnav" class="defaultscroll sticky">
+        <style>
+            #topnav .navigation-menu.nav-light > li > a {
+                color: #e8e1e1;
+            }
+
+            @media (max-width: 768px) {
+                #topnav .navigation-menu.nav-light > li > a {
+                    color: #000000;
+                }
+            }
+
+            .bg-overlay {
+                background-color: #3c4858d1;
+            }
+        </style>
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <span class="logo-light-mode">
+                    <img src="Content/Assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                    <img src="Content/Assets/images/logo-light.png" class="l-light" height="24" alt="">
+                </span>
+                <img src="Content/Assets/images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+            </a>
+
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <!--Login button Start-->
+            <ul class="buy-button list-inline mb-0">
+                <li class="list-inline-item mb-0">
+                    <div class="dropdown  contact-btn" style="display:none;">
+                        <button type="button" class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="uil uil-search text-muted"></i>
+                        </button>
+                        <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-0" style="width: 300px;">
+                            <form>
+                                <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search...">
+                            </form>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-inline-item mb-0">
+                    <a href="Contact.html" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <button class="btn btn-primary border-light contact-btn" type="submit">Get Free Quote</button>
+                    </a>
+                </li>
+
+            </ul>
+            <style>
+                .navigation-menu .nav-link::after {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    background-color: #e8e1e1;
+                    color: transparent;
+                    width: 0%;
+                    content: '.';
+                    height: 3px;
+                    transition: all 0.5s;
+                }
+
+                .navigation-menu .nav-link:hover::after {
+                    width: 100%;
+                }
+            </style>
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu nav-light">
+                    
+                    <li><a href="Services.html" class="sub-menu-item nav-link">Services</a></li>
+                    <li><a href="About.html" class="sub-menu-item nav-link">About us</a></li>
+                    <li><a href="Portfolio.html" class="sub-menu-item nav-link">Portfolio</a></li>
+                    <li><a href="Blog.html" class="sub-menu-item nav-link">Blogs</a></li>
+                    <li><a href="Careers.html" class="sub-menu-item nav-link">Careers</a></li>
+
+
+                   
+                    <li>
+                        
+                    </li>
+                    <!-- <li><a href="contact-us.html" class="sub-menu-item">Contact us</a></li> -->
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div><!--end container-->
+    </header><!--end header-->
+    <!-- Navbar End -->
+
+
+
+
+    
+
+
+<style>
+    .bg-image{
+        background:url(Content/Admin/BlogsPost/Languages637892143587462221.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+</style>
+
+<!-- Hero Start -->
+<section class="bg-half-170 bg-light d-table w-100 bg-image">
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-12 text-center">
+                <div class="pages-heading text-light">
+                    <h2> Learning New Programming Languages An Easy Approach - 1 </h2>
+                    <ul class="list-unstyled mt-4 mb-0">
+                        <li class="list-inline-item h6 user text-muted me-2"><i class="mdi mdi-account"></i> faiznaseem</li>
+                        <li class="list-inline-item h6 date text-muted"><i class="mdi mdi-calendar-check"></i> Friday, May 27, 2022</li>
+                    </ul>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="position-breadcrumb">
+            <nav aria-label="breadcrumb" class="d-inline-block">
+                <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Blog Detail</li>
+                </ul>
+            </nav>
+        </div>
+    </div> <!--end container-->
+</section><!--end section-->
+<!-- Hero End -->
+<!-- Shape Start -->
+<div class="position-relative">
+    <div class="shape overflow-hidden text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!--Shape End-->
+<!-- Blog STart -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <!-- BLog Start -->
+            <div class="col-lg-8 col-md-6">
+                <div class="card blog blog-detail border-0 shadow rounded">
+                    <img src="Content/Admin/BlogsPost/Languages637892143587462221.jpg" class="img-fluid rounded-top" alt="">
+                    <div class="card-body content">
+                        <h6><i class="mdi mdi-tag text-primary me-1"></i><a href="javscript:void(0)" class="text-primary">Learning New Programming Languages An Easy Approach - 1</a></h6>
+                        <p class="text-muted mt-3"><p>Every day, there is an immense boom in the always evolving IT community, with new computer or programming languages making their way into mainstream software development. Let&rsquo;s discuss which language best fits development needs.</p>
+
+<p><strong>Common attributes to be explored</strong></p>
+
+<p>There is a saying which roughly translates to, &ldquo;It doesn&#39;t matter which programming language you choose, if you know one, you know them all&rdquo;. It means all programming languages that the world has been introduced to don&rsquo;t all look exactly the same but there are common features that make all languages understandable to someone familiar with at least one.</p>
+
+<p>All one needs to do is pay close attention to the syntax of any of these languages and see how the code is put together, how commands work, what a program structure looks like and how the code works. Once one gains understanding of how it works, they can learn the syntax of any other programming language within a couple of hours.</p>
+
+<p><strong>Main Focus</strong></p>
+
+<p>Once one is able to identify the common features of any programming language, they can think about taking on multiple languages. A personal preference would be to learn a web-based programming language for starters, as these languages can efficiently be used for mobile applications, desktop applications and websites. Some examples of a browser-based programming language would be JavaScript and Java. Although a programmer should be familiar with more than one language for them to be efficient.&nbsp;</p>
+
+<p><strong>Previously established programming languages</strong></p>
+
+<p>New languages are very popular these days among programmers but the truth is that with the rise in the new high-level languages, developers necessarily need to learn how they work but should not forget the older ones. For example, with the gain in robust operating systems, C++ language that has been around for a long time, is becoming popular. C++ is the basics of programming to learn how to code, one needs to know about C++, even though it is a low-level language in comparison but programmers can manipulate it more thoroughly. Another example would be SQL, a structured query language that is still a must to be able to query databases.</p>
+
+<p><strong>Newly invented programming languages</strong></p>
+
+<p>There is a huge rise in data analytics programming since the rise in recently introduced programming languages. A very popular example is Python. For general purpose programming, Swift like programming languages have been used widely amongst programmers along with Go as well.</p>
+
+<p><strong>What we suggest</strong></p>
+
+<p>One should not limit their ability to just one programming language, they should widen their horizons by experimenting with the new and shiny programming languages and for them to be able to experiment, they need to have hands-on experience with at least one of the programming languages. The more languages a programmer has command on, the more they are credible in the ever-evolving IT world with a boost in overall employability.</p>
+
+<p>There are some old school programmers that refuse to learn the new ways, it will only affect them. They need to embrace the new, more efficient and expandable programming languages to stay hot in the market.</p>
+</p>
+                    </div>
+                </div>
+            </div>
+            <!-- BLog End -->
+            <!-- START SIDEBAR -->
+            <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="card border-0 sidebar sticky-bar ms-lg-4">
+                    <div class="card-body p-0">
+                        <!-- Author -->
+                        <div class="text-center">
+                            <span class="bg-light d-block py-2 rounded shadow text-center h6 mb-0">
+                                Author
+                            </span>
+
+                            <div class="mt-4">
+                                <img src="Content/Assets/images/blog/blog-logo.png" class="img-fluid avatar avatar-medium rounded-pill shadow-md d-block mx-auto" alt="">
+
+                                <a href="#0" class="text-primary h5 mt-4 mb-0 d-block">faiznaseem</a>
+                                <small class="text-muted d-block">Blogger</small>
+                            </div>
+                        </div>
+                        <!-- Author -->
+                        <!-- TAG CLOUDS -->
+                        <!-- <div class="widget mt-4">
+                            <span class="bg-light d-block py-2 rounded shadow text-center h6 mb-0">
+                                Tagclouds
+                            </span>
+
+                            <div class="tagcloud text-center mt-4">
+                                <a href="jvascript:void(0)" class="rounded">Business</a>
+                                <a href="jvascript:void(0)" class="rounded">Finance</a>
+                                <a href="jvascript:void(0)" class="rounded">Marketing</a>
+                                <a href="jvascript:void(0)" class="rounded">Fashion</a>
+                                <a href="jvascript:void(0)" class="rounded">Bride</a>
+                                <a href="jvascript:void(0)" class="rounded">Lifestyle</a>
+                                <a href="jvascript:void(0)" class="rounded">Travel</a>
+                                <a href="jvascript:void(0)" class="rounded">Beauty</a>
+                                <a href="jvascript:void(0)" class="rounded">Video</a>
+                                <a href="jvascript:void(0)" class="rounded">Audio</a>
+                            </div>
+                        </div> -->
+                        <!-- TAG CLOUDS -->
+                        <!-- SOCIAL -->
+                        <div class="widget mt-4">
+                            <span class="bg-light d-block py-2 rounded shadow text-center h6 mb-0">
+                                Social Media
+                            </span>
+
+                            <ul class="list-unstyled social-icon text-center mb-0 mt-4">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/nodlays" target="_blank" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/nodlays/" target="_blank" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/19082310/" target="_blank" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                        <!-- SOCIAL -->
+                    </div>
+                </div>
+            </div><!--end col-->
+            <!-- END SIDEBAR -->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- Blog End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-pb-0" style="padding-top:60px;">
+                        <div class="row">
+                            <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                <a href="#" class="logo-footer">
+                                    <img src="Content/Assets/images/Logo.png" height="60" alt="">
+                                </a>
+                                <p class="mt-4">We are US based Software Company that works with startups, SMBs & enterprises to craft disruptive digital products & strategies that solve business problems & drive measurable results.</p>
+                                <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                    <li class="list-inline-item"><a href="https://www.facebook.com/nodlays" class="rounded" target="_blank"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/nodlays/" class="rounded" target="_blank"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/19082310" class="rounded" target="_blank"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div><!--end col-->
+
+                            <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                <h5 class="footer-head">Company</h5>
+                                <ul class="list-unstyled footer-list mt-4">
+                                    <li><a href="About.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                                    <li><a href="Services.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Services</a></li>
+                                    <li><a href="Portfolio.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Portfolio</a></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div><!--end col-->
+
+                            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                <h5 class="footer-head">Legal Links</h5>
+                                <ul class="list-unstyled footer-list mt-4">
+                                    <li><a href="Terms.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Terms of Services</a></li>
+                                    <li><a href="Privacy.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Privacy Policy</a></li>
+                                </ul>
+                            </div><!--end col-->
+
+                            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                <h5 class="footer-head">Client Satisfaction</h5>
+                                <!-- <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="foot-subscribe mb-3">
+                                                <label class="form-label">Write your email <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                    <input type="email" name="email" id="emailsubscribe" class="form-control ps-5 rounded" placeholder="Your email : " required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="d-grid">
+                                                <input type="submit" id="submitsubscribe" name="send" class="btn btn-soft-primary" value="Subscribe">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form> -->
+                                <img class="image-fluid" src="Content/Assets/images/footer/clutch.png" width="250px">
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+
+        <div class="footer-py-30 footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-start">
+                            <p class="mb-0">
+                                Copyright &#169;
+                                <script>document.write(new Date().getFullYear())</script> Nodlays. All rights reserved.
+                            </p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <ul class="list-unstyled text-sm-end mb-0">
+                            <li class="list-inline-item" style="margin-right: 15px;"><a href="Privacy.html"><p class="mb-0 text-muted">Privacy Policy</p></a></li>
+                            <li class="list-inline-item"><a href="Terms.html"><p class="mb-0 text-muted">Terms Of Service</p></a></li>
+                            <!-- <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/discover.png" class="avatar avatar-ex-sm" title="Discover" alt=""></a></li> -->
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div>
+    </footer><!--end footer-->
+    <!-- Footer End -->
+    <!-- Offcanvas Start -->
+    <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header p-4 border-bottom">
+            <h5 id="offcanvasRightLabel" class="mb-0">
+                <img src="Content/Assets/images/logo-dark.png" height="24" class="light-version" alt="">
+                <img src="Content/Assets/images/logo-light.png" height="24" class="dark-version" alt="">
+            </h5>
+            <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+        </div>
+        <style>
+            @media (max-width: 768px) {
+                .contact-btn {
+                    display: none;
+                }
+            }
+        </style>
+        <div class="offcanvas-body p-4">
+            <div class="row">
+                <div class="col-12">
+                    <img src="Content/Assets/images/contact.svg" class="img-fluid d-block mx-auto" style="max-width: 256px;" alt="">
+                    <div class="card border-0 mt-5" style="z-index: 1">
+                        <div class="card-body p-0">
+                            <form method="post" name="myForm"  action="http://nodlays.com/Home/SubmitForm">
+                                <p id="error-msg" class="mb-0"></p>
+                                <div id="simple-msg"></div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="Name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="Email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Subject</label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="book" class="fea icon-sm icons"></i>
+                                                <input name="Subjact" id="subject" class="form-control ps-5" placeholder="subject :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                <textarea name="Message" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-grid">
+                                            <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
+        <div class="offcanvas-footer p-4 border-top text-center">
+            <ul class="list-unstyled social-icon social mb-0">
+                <li class="list-inline-item mb-0"><a href="https://www.facebook.com/nodlays" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                <li class="list-inline-item mb-0"><a href="https://www.instagram.com/nodlays/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                <li class="list-inline-item mb-0"><a href="https://www.linkedin.com/company/19082310/" target="_blank" class="rounded"><i class="uil uil-linkedin align-middle" title="linkedin"></i></a></li>
+                <li class="list-inline-item mb-0"><a href="mailto:info@nodlays.com" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                <li class="list-inline-item mb-0"><a href="tel:(042)35136205" class="rounded"><i class="uil uil-phone align-middle" title="phone"></i></a></li>
+                <li class="list-inline-item mb-0"><a href="index.html" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+            </ul><!--end icon-->
+        </div>
+    </div>
+    <!-- Offcanvas End -->
+    <!-- Cookies Start -->
+    <!--Note: Cookies Js including in plugins.init.js (path like; js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+    <!-- Cookies End -->
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+    <!-- Back to top -->
+    <!-- Style switcher -->
+    <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+        <div>
+            <h6 class="title text-center">Select Your Color</h6>
+            <ul class="pattern">
+                <li class="list-inline-item">
+                    <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color2" href="javascript: void(0);" onclick="setColor('green')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color3" href="javascript: void(0);" onclick="setColor('purple')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color4" href="javascript: void(0);" onclick="setColor('red')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color5" href="javascript: void(0);" onclick="setColor('skyblue')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color6" href="javascript: void(0);" onclick="setColor('skobleoff')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color7" href="javascript: void(0);" onclick="setColor('cyan')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color8" href="javascript: void(0);" onclick="setColor('slateblue')"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="color9" href="javascript: void(0);" onclick="setColor('yellow')"></a>
+                </li>
+            </ul>
+
+            <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+            <ul class="text-center list-unstyled">
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2" onclick="setTheme('style-rtl')">RTL</a></li>
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2" onclick="setTheme('style')">LTR</a></li>
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2" onclick="setTheme('style-dark-rtl')">RTL</a></li>
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2" onclick="setTheme('style-dark')">LTR</a></li>
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
+                <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
+            </ul>
+
+            <h6 class="title text-center pt-3 mb-0 border-top">Admin</h6>
+            <ul class="text-center list-unstyled mb-0">
+                <li><a href="javascript:void(0)" target="_blank" class="btn btn-sm btn-block btn-success mt-2">Admin Dashboard</a></li>
+            </ul>
+        </div>
+        <!-- <div class="bottom">
+            <a href="javascript: void(0);" class="settings bg-white title-bg-dark shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+        </div> -->
+    </div>
+    <!-- end Style switcher -->
+    <!-- javascript -->
+    <script src="Content/Assets/js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="Content/Assets/js/tiny-slider.js"></script>
+    <!-- tobii js -->
+    <script src="Content/Assets/js/tobii.min.js"></script>
+    <!-- Icons -->
+    <script src="Content/Assets/js/feather.min.js"></script>
+    <!-- Switcher -->
+    <script src="Content/Assets/js/switcher.js"></script>
+    <!-- Main Js -->
+    <script src="Content/Assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+
+
+    <script src="Content/Assets/js/app.js"></script>  <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+
+
+
+    <script src="../www.google.com/recaptcha/api694d.js?render=6LfULQgfAAAAAAJj9Lz5DREf93kC0oSopuhewl4I"></script>  
+    <script src="../code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src='../www.google.com/recaptcha/api.js' type="text/javascript"></script>
+
+
+
+    <script type="text/javascript" src="Content/Admin/assets/js/plugins/notifications/CustomePnotify.js"></script>
+
+
+
+    <script>
+
+
+    function hideButton(x) {
+        x.style.display = 'none';
+    }
+
+
+    //function Used to hide automatically alert message after 4 seconds
+    $("#alertMsg").fadeTo(4000, 500).slideUp(500, function () {
+        $("#alertMsg").slideUp(600);
+    });
+
+
+    
+
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LfULQgfAAAAAAJj9Lz5DREf93kC0oSopuhewl4I', { action: 'contact_us' }).then(function (token) {
+            $('#GoogleCaptchaToken').val(token);
+        });
+    });
+
+
+    </script>
+
+</body>
+
+<!-- Mirrored from nodlays.com/Blogs-detail?EncId=Mg%3D%3D by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 06:19:19 GMT -->
+</html>
