@@ -823,30 +823,7 @@
 
 
 
-    <script>
-
-
-    function hideButton(x) {
-        x.style.display = 'none';
-    }
-
-
-    //function Used to hide automatically alert message after 4 seconds
-    $("#alertMsg").fadeTo(4000, 500).slideUp(500, function () {
-        $("#alertMsg").slideUp(600);
-    });
-
-
-    
-
-    grecaptcha.ready(function () {
-        grecaptcha.execute('6LfULQgfAAAAAAJj9Lz5DREf93kC0oSopuhewl4I', { action: 'contact_us' }).then(function (token) {
-            $('#GoogleCaptchaToken').val(token);
-        });
-    });
-
-
-    </script>
+  
 
 </body>
 
